@@ -1,0 +1,26 @@
+{
+    "name": "alonity/cache",
+    "description": "Alonity cache",
+    "type": "library",
+    "keywords": ["alonity", "cache", "redis", "memcached", "memcache", "mongodb", "file"],
+    "homepage": "https://qexy.org",
+    "version": "1.0.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Qexy",
+            "email": "admin@qexy.org",
+            "homepage": "https://qexy.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.1",
+        "mongodb/mongodb": "v1.4.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "alonity\\cache\\": "src/"
+        }
+    }
+}
